@@ -1,0 +1,97 @@
+body{
+    background-color: var(--international-klein-blue);
+    color: var(--international-klein-blue);
+}
+
+.skewed-bg{
+    background-color: var(--antiflash-white);
+    width: 100vw;
+    height: 300px;
+    position: relative;
+    text-align: center;
+}
+.slant-div{
+    width: 100%;
+    height: 300px;
+    background-color: var(--antiflash-white);
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: skewY(-6deg);
+    transform-origin: top right;
+    z-index: -1;
+}
+.content{
+    padding-top: 10px;
+}
+.top-text{
+    text-align: center;
+    color: var(--international-klein-blue);
+    margin-bottom: 6rem;
+}
+
+.top-text>h3, h1{
+    text-transform: uppercase;
+}
+
+.top-text>h3{
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+.top-text>h1{
+    font-size: 2.5rem;
+}
+.top-text > p{
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+}
+.employ-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--antiflash-white);
+
+}
+
+.employ-profile img{
+    width: 200px;
+    height: auto;
+    background-color: var(--antiflash-white);
+    border: 2px solid white;
+    border-top-color: var(--international-klein-blue);
+    border-left-color: var(--international-klein-blue);
+    border-radius: 50%;
+}
+.employ-details{
+    text-align: center;
+}
+.employ-profile h3{
+    padding: 4px 10px;
+    border:2px solid var(--antiflash-white);
+    margin: 10px;
+}
+
+
+.top-drone img{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 5%;
+    right: 25%;
+}
+
+.left-drone img{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    left:20%;
+}
+
+.right-drone img{
+    width: 30px;
+    height: auto;
+    position: absolute;
+    bottom: 30%;
+    right: 25%;
+}
